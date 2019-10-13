@@ -1,0 +1,31 @@
+$appelsinugulur:#FF8300;
+
+body {
+    margin: 0;
+}
+header {
+    background-color: $appelsinugulur;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+nav {
+    padding-top: 10px;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+li {
+    width: 100%;
+}
