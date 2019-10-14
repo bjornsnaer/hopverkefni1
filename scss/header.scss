@@ -5,6 +5,7 @@ body {
 }
 header {
     background-color: $appelsinugulur;
+    height: 120px;
 
 }
 
@@ -19,13 +20,12 @@ nav {
     width: 100%;
 }
 
-ul {
+.header__nav {
     display: flex;
-    width: 50%;
-    margin: 0 auto;
-    list-style: none;
 }
 
-li {
-    width: 100%;
+.nav__item {
+    flex: 1;
 }
+
+
