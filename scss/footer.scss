@@ -1,17 +1,22 @@
 $blar: #28a7ea;
 
 
-footer {
+.footer {
   background-color: $blar;
   height: 300px;
+  
+
 }
 
-.footer__nav {
+ .footer__nav {
   display: flex;
   margin-left: 80px;
+  
+  
 }
 
-ul {
+
+.footer__nav .nav__list{
   margin-top: 20px;
   list-style: none;
   color: white;
@@ -20,13 +25,13 @@ ul {
   
 }
 
-li:first-child {
+.footer__nav li:first-child {
   color: black;
   font-size: 20px;
   font-weight: bold;
 }
 
-p{
+.footer__copyright{
   text-align: center;
   margin-top: 20px;
 }

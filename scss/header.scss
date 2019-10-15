@@ -3,28 +3,33 @@ $appelsinugulur:#FF8300;
 body {
     margin: 0;
 }
-header {
+
+.header {
     background-color: $appelsinugulur;
     height: 120px;
+    
 
 }
 
-h1 {
+.header__title {
     text-align: center;
     margin: 0;
     padding: 10px;
 }
 
-nav {
-    padding-top: 10px;
-    width: 100%;
-}
-
 .header__nav {
-    display: flex;
+    padding-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 20%;
 }
 
-.nav__item {
+.header__nav .nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.header__nav .nav__item {
     flex: 1;
 }
 
