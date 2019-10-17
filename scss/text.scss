@@ -3,22 +3,29 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  
 
 }
 
 .text__card {
+  margin: 10px;
+}
 
+.card__title {
+  font-style: bold;
+}
 
-
+.card__content {
 
 }
 
-.text__image {
+.card__button {
+
+}
+
+.card__image {
   width: 100%;
-
 }
 
-.text__img {
+.image__img {
   width: 100%;
 }
