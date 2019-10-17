@@ -8,22 +8,37 @@
 
 .text__card {
   margin: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .card__title {
   font-style: bold;
+  margin-top: 2rem;
 }
 
 .card__content {
+  margin-top: 2rem;
 
 }
 
 .card__button {
+  background-color: $blar;
+  border: none;
+  padding: 0.6rem 4rem;
+  border-radius: 0.2rem;
+  transition-duration: 0.4;
+  margin-top: 2rem;
+}
 
+.card__button:hover {
+  background-color: $appelsinugulur;
+  color: white;
 }
 
 .card__image {
   width: 100%;
+  margin-top: 2rem;
 }
 
 .image__img {
