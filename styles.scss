@@ -18,7 +18,11 @@ html { /* stylelint-disable-line */
   // TODO fleiri grunn stillingar
 }
 
+main {
+  max-width: 500px;
+}
+
 
 
 // TODO sækja allar sass skrár
-@import "scss/header", "scss/footer";
+@import "scss/header", "scss/footer","scss/text";
