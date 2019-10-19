@@ -1,7 +1,6 @@
 
 .header {
     background-color: $appelsinugulur;
-    height: 120px;
 }
 
 .header__title {
@@ -12,18 +11,33 @@
 
 .header__nav {
     padding-top: 10px;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 20%;
+    
+   
 }
 
 .header__nav .nav__list {
     display: flex;
+    justify-content: center;
     list-style: none;
+    margin-right: 3rem;
+    margin-left:3rem;
+
 }
 
 .header__nav .list__item {
     flex: 1;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-weight: bold;
 }
 
+.nav__cart:last-child {
+    width: 100%;
+    text-align: center;
+    line-height: 2rem;
+}
 
+.nav__cart img {
+    max-height: 1rem;
+    margin-top: 1.5rem;
+}
