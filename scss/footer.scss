@@ -20,23 +20,26 @@
 }
 
 .footer__nav .nav__list {
+  width: 50%;
   margin-top: 20px;
   list-style: none;
   color: white;
   line-height: 30px;
 }
 
-.footer__nav li:first-child {
+.footer__nav .list__item:first-child {
   color: black;
   font-size: 20px;
   font-weight: bold;
+  line-height: 50px;
 }
 
-.footer__nav .nav__list .list__item {
+.footer__nav .list__item {
   width: 100%;
 }
 
 .footer__copyright {
   text-align: center;
   margin-top: 2rem;
+  padding-bottom: 2rem;
 }
