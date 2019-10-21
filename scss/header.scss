@@ -11,7 +11,7 @@
 
 .header__nav {
   padding-top: 10px;
-  text-decoration: none; 
+  color: black;
 }
 
 .header__nav .nav__list {
@@ -25,17 +25,35 @@
 .header__nav .nav__item {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+ 
   font-weight: bold;
 }
 
 .nav__item:last-child {
-  margin: 0 auto;
   display: flex;
-  width: 100%;
-  border: solid 1px black;
 }
 
 .cart__img {
   max-height: 1rem;
   padding-right: 0.3rem;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:focus {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
 }
