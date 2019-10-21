@@ -11,13 +11,19 @@
   box-sizing: inherit;
 }
 
+@font-face { 
+  font-family: 'Favorit'; 
+  src:url('Favorit_Regular.otf'); 
+  src:url('Favorit_Bold')
+} 
+
 html { /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
 
   // TODO fleiri grunn stillingar
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Favorit', fallback, sans-serif;
 }
 
 main {
