@@ -11,31 +11,51 @@
 
 .header__nav {
   padding-top: 10px;
-  text-decoration: none; 
+  color: black;
 }
 
 .header__nav .nav__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  
   list-style: none;
-  margin-right: 3rem;
-  margin-left:3rem;
+  margin: 0 auto;
 }
 
 .header__nav .nav__item {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  margin: 0.5rem;
+ 
   font-weight: bold;
 }
 
 .nav__item:last-child {
-  margin: 0 auto;
   display: flex;
   width: 100%;
   
 }
 
-.card__img {
+.cart__img {
   max-height: 1rem;
   padding-right: 0.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:focus {
+  text-decoration: none;
+  color: black;
 }
