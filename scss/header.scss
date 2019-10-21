@@ -18,7 +18,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+
   list-style: none;
   margin: 0 auto;
 }
@@ -31,16 +31,17 @@
 
 .nav__item:last-child {
   display: flex;
+
+  font-weight: initial;
 }
 
 .cart__img {
   max-height: 1rem;
-  padding-right: 0.3rem;
 }
 
-a {
+a:link {
   text-decoration: none;
-  color: none;
+  color: black;
 }
 
 a:visited {
@@ -49,11 +50,22 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: none;
-  color: black;
+  color: white;
 }
 
-a:focus {
-  text-decoration: none;
-  color: black;
+.current {
+  text-decoration: underline;
+}
+
+@media (min-width: 800px) {
+  
+  .nav__item:last-child {
+    justify-content: flex-end;
+    background-color: hotpink;
+  }
+
+  .header__nav {
+    display: flex;
+  }
+
 }
