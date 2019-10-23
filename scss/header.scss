@@ -23,18 +23,20 @@
   margin: 0 auto;
 }
 
-.header__nav .nav__item {
+.nav__list .nav__item {
   margin: 0.5rem;
  
   font-weight: bold;
 }
 
-.nav__item:last-child {
+.nav__cart {
   display: flex;
+  justify-content: center;
+
+  margin: 0.5rem;
+  width: 100%;
 
   font-weight: initial;
-  width: 100%;
-  
 }
 
 .cart__img {
@@ -60,14 +62,21 @@ a:hover {
 }
 
 @media (min-width: 800px) {
-  
-  .nav__item:last-child {
-    justify-content: flex-end;
-    background-color: hotpink;
-  }
 
   .header__nav {
     display: flex;
+
+  }
+
+  .nav__list {
+    width: 50%;
+    justify-content: center;
+    
+  }
+
+  .nav__cart {
+    width: 50%;
+    justify-content: flex-end;
   }
 
 }
