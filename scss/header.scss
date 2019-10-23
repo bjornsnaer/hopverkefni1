@@ -65,18 +65,25 @@ a:hover {
 
   .header__nav {
     display: flex;
-
+    justify-content: flex-start;
+    position: relative;
   }
 
   .nav__list {
-    width: 50%;
-    justify-content: center;
-    
+    flex: 0 1 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 40%;
   }
 
   .nav__cart {
-    width: 50%;
-    justify-content: flex-end;
+    display: initial;
+    width: initial;
+
+    flex: 0 1 auto;
+    margin-left: auto;
   }
 
 }
