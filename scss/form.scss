@@ -3,12 +3,10 @@
 .form {
   padding-right: 20px;
   padding-left: 20px;
-  padding-bottom: 2rem;
 }
 
 .form__title {
   font-size: 2rem;
-  padding-bottom: 2rem;
   padding-top: 2rem;
 }
 
@@ -32,15 +30,20 @@
 
 }
 
+.form__expiration {
+  width: 72%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .form__time {
   border-color: black;
-  border: 1px solid;
   border-radius: 4px;
-  height: 1.5rem;
-  width: 4rem;
+
+  height: 40px;
   padding-right: 10px;
   padding-left: 10px;
-  margin-left: 10px;
 }
 
 .form__button {
@@ -52,9 +55,7 @@
   border: none;
   padding: 0.6rem 4rem;
   border-radius: 0.2rem;
-  transition-duration: 0.4s;
-  
-  
+  transition-duration: 200ms;
 }
 
 .form__button:hover {
