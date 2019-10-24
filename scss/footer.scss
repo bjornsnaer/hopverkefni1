@@ -23,7 +23,6 @@
   width: 50%;
   margin-top: 20px;
   list-style: none;
-  color: white;
   line-height: 30px;
   padding-right: 0.625rem;
   padding-left: 0.625rem;
@@ -39,6 +38,18 @@
 
 .footer__nav .nav__item {
   width: 100%;
+  font-weight: initial;
+}
+
+.footer__nav a{
+  color: white;
+  text-decoration: none;
+  transition: color 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.footer__nav a:hover{
+  color: black;
 }
 
 .footer__copyright {
