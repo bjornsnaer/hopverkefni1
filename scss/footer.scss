@@ -46,3 +46,16 @@
   margin-top: 2rem;
   padding-bottom: 2rem;
 }
+
+@media (min-width: 800px) {
+
+  .footer{
+    padding-right: 0;
+  }
+  
+  .footer__nav{
+    margin-left: -6rem;
+    margin-right: 6rem;
+   
+  }
+}
