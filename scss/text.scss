@@ -25,8 +25,15 @@
 
 }
 
+.card__paragraph {
+  margin-top: 2rem;
+  line-height: 2rem;
+}
+
+
 .card__button {
   background-color: $blar;
+  display: block;
   border: none;
   padding: 0.6rem 4rem;
   border-radius: 0.2rem;
@@ -37,11 +44,16 @@
 .card__button:hover {
   background-color: $appelsinugulur;
   color: white;
+  cursor: pointer;
 }
 
 .text__card a{
   width: 100%;
+  max-width: 250px;
+  text-decoration: none;
+  display: inline-block;
   transition-timing-function: ease-in-out;
+  
 }
 
 .text__card a:hover{
@@ -55,4 +67,13 @@
 
 .image__img {
   width: 100%;
+}
+
+@media (min-width: 800px) {
+  
+  .text__card{
+    display: flex;
+  }
+
+  
 }
