@@ -23,7 +23,7 @@
   width: 50%;
   margin-top: 20px;
   list-style: none;
-  line-height: 30px;
+  line-height: 2rem;
   padding-right: 0.625rem;
   padding-left: 0.625rem;
 
@@ -44,7 +44,7 @@
 .footer__nav a{
   color: white;
   text-decoration: none;
-  transition: color 300ms;
+  transition: color 200ms;
   transition-timing-function: ease-in-out;
 }
 

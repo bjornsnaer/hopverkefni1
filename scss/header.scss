@@ -23,7 +23,7 @@
   margin: 0 auto;
 }
 
-.nav__list .nav__item {
+.header .nav__list .nav__item {
   margin: 0.5rem;
  
   font-weight: bold;
@@ -33,7 +33,7 @@
   display: flex;
   justify-content: center;
 
-  margin: 1rem;
+  padding: 1rem;
   width: 100%;
 
   font-weight: initial;
@@ -46,7 +46,7 @@
 .header__nav a {
   text-decoration: none;
   color: black;
-  transition: color 300ms;
+  transition: color 200ms;
   transition-timing-function: ease-in-out;
 }
 
