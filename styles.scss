@@ -11,6 +11,7 @@
   box-sizing: inherit;
 }
 
+
 html { /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
@@ -28,10 +29,14 @@ main {
 $blar: #00b7ff;
 $appelsinugulur:#ff5000;
 
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:500&display=swap);
 $Oswald-font: 'Oswald', serif;
 
-
+.headline {
+  font-family: $Oswald-font;
+  font-weight: 500;
+}
 
 
 // TODO sækja allar sass skrár
