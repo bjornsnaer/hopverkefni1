@@ -39,6 +39,15 @@
   color: white;
 }
 
+.text__card a{
+  width: 100%;
+  transition-timing-function: ease-in-out;
+}
+
+.text__card a:hover{
+  color: black;
+}
+
 .card__image {
   width: 100%;
   margin-top: 2rem;
