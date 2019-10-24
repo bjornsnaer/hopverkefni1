@@ -26,31 +26,30 @@
 
 	<main>
 		<h1>Vörur í körfu</h1>
-		<div class="products">
+		<section class="products">
 			<div class="product">
 				<div class="product__image">
 					<img class="product__img" src="/img/Backpack.jpg" alt="Bakpoki">
-				</div>
-				<div class="product__title">Bakpoki</div>
+        </div>
+				<title class="product__title">Bakpoki</title>
 				<p class="product__text">Þú getur geymt allt sem þú þarft fyrir klifrið í þessum bakpoka.</p>
 
 				<div class="product__price">49.900 kr.-</div>
-				<div class="product__purchase"></div>
-				<p>Fjöldi:</p>
-				<input class="product__count" value="2"></input>
-				<button class="product__button"><img src="/img/cart.svg" alt="Karfa">Eyða úr körfu</button>
-				<button class="product__button"><img src="/img/cart.svg" alt="Karfa">Uppfæra</button>
-
+				<div class="product__purchase">
+				  <p>Fjöldi:</p>
+          <input class="product__count" value="2"></input>
+				  <button class="product__button"><img src="/img/cart.svg" alt="Karfa">Eyða úr körfu</button>
+          <button class="product__button"><img src="/img/cart.svg" alt="Karfa">Uppfæra</button>
+        </div>
 			</div>
-
-
 
 			<div class="product">
 				<div class="product__image">
 					<img class="product__img" src="/img/chalkbag.jpg" alt="Kalkpoki">
 				</div>
-				<div class="product__title">Kalkpoki</div>
-				<p class="product__text"> Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
+				<title class="product__title">Kalkpoki</title>
+        <p class="product__text"> Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
+        
 				<div class="product__price">4.900 kr.-</div>
 				<div class="product__purchase">
 					<p>Fjöldi:</p>
@@ -59,10 +58,9 @@
 					<button class="product__button"><img src="/img/cart.svg" alt="Karfa">Uppfæra</button>
 				</div>
 			</div>
+		</section>
 
-		</div>
-
-		<div class="forms">
+		<section class="forms">
 			<div class="form">
 				<h2 class="form__title">Sendingarupplýsingar</h2>
 				<div class="form__row">
@@ -299,14 +297,12 @@
 						</select>
 					</div>
 				</div>
-			</div>
-		</div>
-
-		<div class="form__purchase">
-			<button class="form__button">Kaupa</button>
-		</div>
-
-
+      </div>
+      
+      <div class="form__purchase">
+        <button class="form__button">Kaupa</button>
+      </div>
+		</section>
 	</main>
 
 	<footer class="footer">
