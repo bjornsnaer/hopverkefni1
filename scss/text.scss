@@ -13,14 +13,12 @@
 }
 
 .card__title {
-  margin-top: 2rem;
   font-family: $Oswald-font;
   font-weight: 400;
   font-size: 2rem;
 }
 
 .card__content {
-  margin-top: 2rem;
   font-size: 1.2rem;
 
 }
@@ -63,6 +61,7 @@
 .card__image {
   width: 100%;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .image__img {
