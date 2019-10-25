@@ -1,13 +1,11 @@
 
 .footer {
-  
   background-color: $blar;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   padding-right: 20px;
   padding-left: 20px;
-
 }
 
  .footer__nav {
@@ -16,7 +14,6 @@
   flex-wrap: wrap;
   margin-left: -0.625rem;
   margin-right:-0.625rem;
-  
 }
 
 .footer__nav .nav__list {
@@ -26,7 +23,6 @@
   line-height: 2rem;
   padding-right: 0.625rem;
   padding-left: 0.625rem;
-
 }
 
 .footer__nav .nav__item:first-child {

@@ -1,0 +1,37 @@
+.button {
+  display: block;
+  margin-top: 2rem;
+
+  background-color: $blar;
+  border: none;
+  border-radius: 0.2rem;
+
+  transition-duration: 200ms;
+}
+
+.button:hover {
+  background-color: $appelsinugulur;
+  color: white;
+}
+
+
+
+.card__button {
+  width: 13rem;
+  height: 2rem;
+}
+
+.card__button:hover {
+  cursor: pointer;
+}
+
+.form__button {
+  margin: auto;
+  margin-bottom: 2rem;
+
+  padding: 0.6rem 4rem;
+}
+
+.form__button:hover {
+
+}
