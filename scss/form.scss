@@ -30,7 +30,7 @@
 }
 
 .form__expiration {
-  width: 72%;
+  width: 320px;
   display: flex;
   justify-content: space-between;
 
@@ -67,7 +67,14 @@
 
   .form__expiration {
     justify-content: initial;
-    justify-content: flex-end;
+    justify-content: flex-start;
     margin-right: 32px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .form__expiration {
+    justify-content: flex-start;
   }
 }
