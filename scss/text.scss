@@ -31,35 +31,17 @@
   line-height: 2rem;
 }
 
-
-.card__button {
-  background-color: #00b7ff;
-  display: block;
-  border: none;
-  border-radius: 0.2rem;
-  transition-duration: 0.4s;
-  margin-top: 2rem;
-  width: 13rem;
-  height: 2rem; 
-}
-
-.card__button:hover {
-  background-color: $appelsinugulur;
-  color: white;
-  cursor: pointer;
-}
-
 .text__card a{
   width: 100%;
   max-width: 250px;
   text-decoration: none;
   display: inline-block;
   transition-timing-function: ease-in-out;
-  
+  color: black;
 }
 
 .text__card a:hover{
-  color: black;
+  color: white;
 }
 
 .card__image {

@@ -47,23 +47,6 @@
   font-size: 1rem;
 }
 
-.form__button {
-  display: block;
-  margin: auto;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  background-color: $blar;
-  border: none;
-  padding: 0.6rem 4rem;
-  border-radius: 0.2rem;
-  transition-duration: 200ms;
-}
-
-.form__button:hover {
-  background-color: $appelsinugulur;
-  color: white;
-}
-
 @media (min-width: 800px) {
 
   .forms {
@@ -86,9 +69,5 @@
     justify-content: initial;
     justify-content: flex-end;
     margin-right: 32px;
-  }
-
-  .form__button {
-    padding: 0.6rem 7rem;
   }
 }
