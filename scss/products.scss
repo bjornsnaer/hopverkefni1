@@ -44,20 +44,6 @@
   border-radius: 4px;
 }
 
-.product__button {
-  height: 40px;
-
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-
-  border-color: black;
-  border-radius: 4px;
-  background-color: lightgray;
-}
-
-.product__button img{
-  max-width: 1rem;
-}
 
 .product__image {
   width: 100%;
@@ -109,9 +95,15 @@
     padding-left: 0;
     padding-right:0;
   }
+
   .product--800and1500px {
     width: 33.33333%;
    
+  }
+
+  .product__image {
+    width: 100%;
+
   }
 
   
