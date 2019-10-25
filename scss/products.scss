@@ -84,7 +84,7 @@
 
 }
 
-@media (min-width: 1499px) {
+@media (min-width: 1200px) {
 
   main {
     margin: 0 auto;
@@ -92,17 +92,26 @@
   }
 
   .products--800and1500px {
-    padding-left: 0;
-    padding-right:0;
+    padding-left: initial;
+    padding-right: initial;
+
+    justify-content: space-between;
   }
 
   .product--800and1500px {
-    width: 33.33333%;
-   
+    width: 386.6666666666666px;
+
+    padding-left: initial;
+    padding-right: initial;
+
+    margin-bottom: 20px;
   }
 
   .product__image {
     width: 100%;
+
+    padding-left: initial;
+    padding-right: initial;
 
   }
 
