@@ -62,17 +62,20 @@
   }
   
   .footer__nav{
-    margin-left: -5.5rem;
-    margin-right: 5.5rem;
-   
+    margin: initial;
+  }
+
+  .footer__nav .nav__list {
+    padding: initial;
+    transform: initial;
   }
 }
 
 @media (min-width: 1200px) {
 
   .footer{
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: initial;
+    padding-left: initial;
   }
 
   .footer__nav {
@@ -81,12 +84,15 @@
     padding: 0;
     width: 100%;
     margin: 0 auto;
+
+    justify-content: space-between;
   }
 
   .footer__nav .nav__list {
-    padding-left: 0;
-    padding-right: 0;
     transform: none;
+    width: 286.6666666px;
+
+    padding: initial;
   }
 
 
