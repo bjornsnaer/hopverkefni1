@@ -5,21 +5,35 @@
 
 Verkefnið var hópaverkefni 1 í Vefforritun 1 í HÍ árið 2019.
 
-Stundakennar: Andri Valur Gudjohnssen
+Stundakennari: Andri Valur Gudjohnssen
 
 ## Höfundar
 
-* Björn Snær Löve
+ Björn Snær Löve 
 
-* Guðlaug Anges Kristjánsdóttir
+ * hí-netfang: `bsl1@hi.is`
+
+
+Guðlaug Agnes Kristjánsdóttir
+
+* hí-netfang: `gak16@hi.is`
 
 ## Keyrsla
 
-Hvernig á að keyra verkefnið??
+Verkefnið er keyrt með _node_modules_ pökkunum `browser-sync` og `node-sass` en þá eru að finna í 
+möppunni `/node_modulus`. 
 
 ## Uppskipting
 
-Verkefnið skiptist upp í 3 möppur: `/img`, `/scss` og ` 
+Verkefnið skiptist upp í 3 möppur: `/img`, `/scss` og `/pages` ásamt `styles.scss` og  `index.html`.
+`/img` mappan inniheldur allar myndir notaðar í vefsíðunni, `/scss` mappan inniheldur allar sass
+skrárnar fyrir útlit síðunnar og `/pages` mappan inniheldur allar `.html` síður fyrir utan `index.html` 
+sem er forsíða fyrir verkefnisin. `styles.scss` skráin er svo sú skrá sem sækir allar sass skrárnar í
+`/scss` möppuna og býr til eina stóra `.css`skrá úr henni.
+
+Auk fyrrnefndra skráa og mappa eru möppurnar `/efni` og `/utlit` sem innihalda forskrift fyrir verkefnagerðina
+frá kennara. Þar að auki er skrárnar `styles.css`,`package-lock.json`, `package.json` og mappan `/node_modulus` en tilgangur þeirra við kemur keyrslu
+verkefnisins og er lýst í liðnum _Keyrsla_. 
 
 
 
