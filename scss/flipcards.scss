@@ -56,3 +56,18 @@
   line-height: 1rem;
 
 }
+
+@media (min-width: 800px) {
+  
+  .flipcards {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 2rem;
+  }
+  .flipcard {
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
