@@ -70,19 +70,29 @@
 
 @media (min-width: 800px) {
 
-  .products {
+  .products--800px {
     margin-bottom: 3rem;
     padding-right: 10px;
     padding-left: 10px;
 
 
   }
-  .product {
+  .product--800px {
     width: 50%;
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  .product--cart {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .product__image {
+    width: 50%;
   }
 
 

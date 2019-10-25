@@ -11,56 +11,62 @@
 </head>
 
 <body>
-  <header class="header">
-    <h1 class="header__title">Prílihúsið</h1>
-    <nav class="header__nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a href="../index.html">FORSÍÐA</a></li>
-        <li class="nav__item"><a href="products.html">VÖRUR</a></li>
-        <li class="nav__item"><a href="course.html">NÁMSKEIÐ</a></li>
-        <li class="nav__item"><a href="staff.html">STARFSFÓLK</a></li>
-      </ul>
-      <div class="nav__cart current">
-        <img class="cart__img" src="../img/cart.svg" alt="Karfa">
-        <a href="cart.html">Karfa (6)</a>
-      </div>
-    </nav>
-  </header>
+	<header class="header">
+		<h1 class="header__title">Prílihúsið</h1>
+		<nav class="header__nav">
+			<ul class="nav__list">
+				<li class="nav__item"><a href="../index.html">FORSÍÐA</a></li>
+				<li class="nav__item"><a href="products.html">VÖRUR</a></li>
+				<li class="nav__item"><a href="course.html">NÁMSKEIÐ</a></li>
+				<li class="nav__item"><a href="staff.html">STARFSFÓLK</a></li>
+			</ul>
+			<div class="nav__cart current">
+				<img class="cart__img" src="../img/cart.svg" alt="Karfa">
+				<a href="cart.html">Karfa (6)</a>
+			</div>
+		</nav>
+	</header>
 
 	<main>
-		<section class="products">
-    	<h2 class="products__title headline">Vörur í körfu</h2>
-			<div class="product">
+		<section class="products ">
+			<h2 class="products__title headline">Vörur í körfu</h2>
+
+			<div class="product product--cart">
 				<div class="product__image">
 					<img class="product__img" src="/img/Backpack.jpg" alt="Bakpoki">
-        </div>
-				<h2 class="product__title headline">Bakpoki</h2>
-				<p class="product__text">Þú getur geymt allt sem þú þarft fyrir klifrið í þessum bakpoka.</p>
+				</div>
+				<div class="product__section">
+					<h2 class="product__title headline">Bakpoki</h2>
+					<p class="product__text">Þú getur geymt allt sem þú þarft fyrir klifrið í þessum bakpoka.</p>
 
-				<div class="product__price">49.900 kr.-</div>
-				<div class="product__purchase">
-				  <p>Fjöldi:</p>
-          <input class="product__count" value="2"></input>
-          <button class="product__button"><img src="/img/cart.svg" alt="Karfa">Uppfæra</button>
-          <button class="product__button"><img src="/img/cart.svg" alt="Karfa">Eyða úr körfu</button>
-        </div>
+					<div class="product__price">49.900 kr.-</div>
+					<div class="product__purchase">
+						<p>Fjöldi:</p>
+						<input class="product__count" value="2"></input>
+						<button class="product__button"><img src="/img/cart.svg" alt="Karfa">Uppfæra</button>
+						<button class="product__button"><img src="/img/cart.svg" alt="Karfa">Eyða úr körfu</button>
+					</div>
+				</div>
 			</div>
 
-			<div class="product">
+			<div class="product product--cart">
 				<div class="product__image">
 					<img class="product__img" src="/img/chalkbag.jpg" alt="Kalkpoki">
 				</div>
-				<h2 class="product__title headline">Kalkpoki</h2>
-        <p class="product__text"> Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
-        
-				<div class="product__price">4.900 kr.-</div>
-				<div class="product__purchase">
-					<p>Fjöldi:</p>
-					<input class="product__count" value="4"></input>
-          <button class="product__button"><img src="/img/cart.svg" alt="Karfa">Uppfæra</button>
-          <button class="product__button"><img src="/img/cart.svg" alt="Karfa">Eyða úr körfu</button>
+				<div class="product__section">
+					<h2 class="product__title headline">Kalkpoki</h2>
+					<p class="product__text"> Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
+
+					<div class="product__price">4.900 kr.-</div>
+					<div class="product__purchase">
+						<p>Fjöldi:</p>
+						<input class="product__count" value="4"></input>
+						<button class="product__button"><img src="/img/cart.svg" alt="Karfa">Uppfæra</button>
+						<button class="product__button"><img src="/img/cart.svg" alt="Karfa">Eyða úr körfu</button>
+					</div>
 				</div>
 			</div>
+			
 		</section>
 
 		<section class="forms">
@@ -300,52 +306,53 @@
 						</select>
 					</div>
 				</div>
-      </div>
-      
-      <div class="form__purchase">
-        <button class="form__button">Kaupa</button>
-      </div>
+			</div>
+
+
 		</section>
+		<div class="form__purchase">
+			<button class="form__button">Kaupa</button>
+		</div>
 	</main>
 
-  <footer class="footer">
-    <nav class="footer__nav">
-      <ul class="nav__list">
-        <li class="nav__item">Vöruflokkar</li>
-        <li class="nav__item"><a href="products.html">Nauðsynjavörur</a></li>
-        <li class="nav__item"><a href="products.html">Frábærar vörur</a></li>
-        <li class="nav__item"><a href="products.html">Ómissandi vörur</a></li>
-        <li class="nav__item"><a href="products.html">Ótrúlegar vörur</a></li>
-        <li class="nav__item"><a href="products.html">Magnaðar vörur</a></li>
-      </ul>
+	<footer class="footer">
+		<nav class="footer__nav">
+			<ul class="nav__list">
+				<li class="nav__item">Vöruflokkar</li>
+				<li class="nav__item"><a href="products.html">Nauðsynjavörur</a></li>
+				<li class="nav__item"><a href="products.html">Frábærar vörur</a></li>
+				<li class="nav__item"><a href="products.html">Ómissandi vörur</a></li>
+				<li class="nav__item"><a href="products.html">Ótrúlegar vörur</a></li>
+				<li class="nav__item"><a href="products.html">Magnaðar vörur</a></li>
+			</ul>
 
-      <ul class="nav__list">
-        <li class="nav__item">Vöruflokkar</li>
-        <li class="nav__item"><a href="products.html">Trylltar vörur</a></li>
-        <li class="nav__item"><a href="products.html">Geggjaðar vörur</a></li>
-        <li class="nav__item"><a href="products.html">Svakalegar vörur</a></li>
-        <li class="nav__item"><a href="products.html">Fáránlegar vörur</a></li>
-        <li class="nav__item"><a href="products.html">Klikkaðar vörur</a></li>
-      </ul>
+			<ul class="nav__list">
+				<li class="nav__item">Vöruflokkar</li>
+				<li class="nav__item"><a href="products.html">Trylltar vörur</a></li>
+				<li class="nav__item"><a href="products.html">Geggjaðar vörur</a></li>
+				<li class="nav__item"><a href="products.html">Svakalegar vörur</a></li>
+				<li class="nav__item"><a href="products.html">Fáránlegar vörur</a></li>
+				<li class="nav__item"><a href="products.html">Klikkaðar vörur</a></li>
+			</ul>
 
-      <ul class="nav__list">
-        <li class="nav__item">Námskeið</li>
-        <li class="nav__item"><a href="course.html">V0 - V1 námskeið</a></li>
-        <li class="nav__item"><a href="course.html">V2 - V4 námskeið</a></li>
-        <li class="nav__item"><a href="course.html">V5 - V7 námskeið</a></li>
-        <li class="nav__item"><a href="course.html">Fjallaklifur námskeið</a></li>
-      </ul>
+			<ul class="nav__list">
+				<li class="nav__item">Námskeið</li>
+				<li class="nav__item"><a href="course.html">V0 - V1 námskeið</a></li>
+				<li class="nav__item"><a href="course.html">V2 - V4 námskeið</a></li>
+				<li class="nav__item"><a href="course.html">V5 - V7 námskeið</a></li>
+				<li class="nav__item"><a href="course.html">Fjallaklifur námskeið</a></li>
+			</ul>
 
-      <ul class="nav__list">
-        <li class="nav__item">Síður</li>
-        <li class="nav__item"><a href="products.html">Allar vörur</a></li>
-        <li class="nav__item"><a href="staff.html">Starfsfólk</a></li>
-        <li class="nav__item"><a href="course.html">Námskeið</a></li>
-        <li class="nav__item"><a href="cart.html">Karfa</a></li>
-      </ul>
-    </nav>
-    <p class=footer__copyright>© 2019 Prílihúsið</p>
-  </footer>
+			<ul class="nav__list">
+				<li class="nav__item">Síður</li>
+				<li class="nav__item"><a href="products.html">Allar vörur</a></li>
+				<li class="nav__item"><a href="staff.html">Starfsfólk</a></li>
+				<li class="nav__item"><a href="course.html">Námskeið</a></li>
+				<li class="nav__item"><a href="cart.html">Karfa</a></li>
+			</ul>
+		</nav>
+		<p class=footer__copyright>© 2019 Prílihúsið</p>
+	</footer>
 </body>
 
 </html>
