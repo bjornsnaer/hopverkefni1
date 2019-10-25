@@ -3,13 +3,13 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-
+  margin-top: $gutter;
+  margin-bottom: $gutter/2;
 }
 
 .text__card {
-  margin: $gutter/2;
-  padding-right: $gutter/2;
-  padding-left: $gutter/2;
+  padding-right: $gutter;
+  padding-left: $gutter;
 }
 
 .text__card--switch {
@@ -23,11 +23,10 @@
 
 .card__content {
   font-size: 1.2rem;
-
 }
 
 .card__paragraph {
-  margin-top: 2rem;
+  margin-top: $gutter;
   line-height: 2rem;
 }
 
@@ -46,8 +45,8 @@
 
 .card__image {
   width: 100%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: $gutter;
+  margin-bottom: $gutter;
 }
 
 .image__img {
@@ -55,6 +54,10 @@
 }
 
 @media (min-width: 800px) {
+
+  .text {
+    margin-bottom: initial;
+  }
 
   .text__card {
     display: flex; 
@@ -76,5 +79,31 @@
     margin-left: 1.5rem; 
   } 
 
-  
+}
+
+@media (min-width: 1200px) {
+
+  .text__card {
+    margin: initial;
+    padding: initial;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card__image {
+    max-width: initial;
+    padding: initial;
+
+    width: 590px;
+
+  }
+
+  .card__content {
+    margin: initial;
+
+    width: 590px;
+  }
+
 }
