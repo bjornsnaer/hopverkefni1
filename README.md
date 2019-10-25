@@ -1,5 +1,40 @@
 
-# Hópverkefni 1
+# Prílihúsið
+
+Þetta verkefni inniheldur vefsíðu fyrir gervi-fyrirtækið _Prílihúsið_ og meðfylgjandi gögn.
+
+Verkefnið var hópaverkefni 1 í Vefforritun 1 í HÍ árið 2019.
+
+Stundakennar: Andri Valur Gudjohnssen
+
+## Höfundar
+
+* Björn Snær Löve
+
+* Guðlaug Anges Kristjánsdóttir
+
+## Keyrsla
+
+Hvernig á að keyra verkefnið??
+
+## Uppskipting
+
+Verkefnið skiptist upp í 3 möppur: `/img`, `/scss` og ` 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Hópverkefni 1
 
 Verkefnið felst í því að smíða vef eftir forskrift.
 
