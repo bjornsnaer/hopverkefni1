@@ -70,14 +70,14 @@
 
 @media (min-width: 800px) {
 
-  .products--800px {
+  .products--800and1500px {
     margin-bottom: 3rem;
     padding-right: 10px;
     padding-left: 10px;
 
 
   }
-  .product--800px {
+  .product--800and1500px {
     width: 50%;
     margin: 0;
     display: flex;
@@ -97,3 +97,25 @@
 
 
 }
+
+@media (min-width: 1499px) {
+
+  main {
+    margin: 0 auto;
+
+  }
+
+  .products--800and1500px {
+    padding-left: 0;
+    padding-right:0;
+  }
+  .product--800and1500px {
+    width: 33.33333%;
+   
+  }
+
+  
+
+  
+}
+
