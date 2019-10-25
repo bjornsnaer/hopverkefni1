@@ -37,10 +37,6 @@ sett upp.
 * Með skipuninni `npm run dev` í terminal keyrist vefsíðan upp á vefnum og þar að auki er hægt að gera beytingar á
 `.html` og `.sass` og munu þá þær breytingar keyrast upp samtímis á vefnum á meðan skipunin er í keyrslu.
 
-
-
-
-
 ## Uppskipting
 
 Verkefnið skiptist upp í 3 möppur: `/img`, `/scss` og `/pages` ásamt `styles.scss` og  `index.html`.
@@ -53,14 +49,6 @@ sem er forsíða fyrir verkefnisin. `styles.scss` skráin er svo sú skrá sem s
 Auk fyrrnefndra skráa og mappa eru möppurnar `/efni` og `/utlit` sem innihalda forskrift fyrir verkefnagerðina
 frá kennara. Þar að auki er skrárnar `styles.css`,`package-lock.json`, `package.json` og mappan `/node_modulus` en tilgangur þeirra við kemur keyrslu
 verkefnisins og er lýst í liðnum _Keyrsla_. 
-
-
-
-
-
-
-
-
 
 
 
