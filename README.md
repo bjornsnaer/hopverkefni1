@@ -20,7 +20,7 @@ Guðlaug Agnes Kristjánsdóttir
 
 ## Keyrsla
 
-Verkefnið er keyrt með _node_modules_ pökkunum `browser-sync` og `node-sass` en þá eru að finna í 
+Verkefnið er keyrt með _node_modules_ pökkunum `browser-sync` og `node-sass` en þá er að finna í 
 möppunni `/node_modulus`.
 
 Eftir að verkefnið hefur verið sótt af github skal byrja á því að opna terminal og keyra skipunina `npm install` 
