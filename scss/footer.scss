@@ -70,12 +70,23 @@
 
 @media (min-width: 1200px) {
 
+  .footer{
+    padding-right: 0;
+    padding-left: 0;
+  }
+
   .footer__nav {
     flex-wrap: nowrap;
     max-width: 1200px;
     padding: 0;
     width: 100%;
     margin: 0 auto;
+  }
+
+  .footer__nav .nav__list {
+    padding-left: 0;
+    padding-right: 0;
+    transform: none;
   }
 
 
