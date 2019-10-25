@@ -2,6 +2,12 @@
 .header {
   background-color: $appelsinugulur;
   padding-bottom: 1rem;
+
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .header__title {
@@ -13,7 +19,7 @@
 }
 
 .header__nav {
-  padding-top: 10px;
+  padding-top: $gutter/2;
   color: black;
 }
 
@@ -72,7 +78,7 @@
     width: 100%;
   }
 
-  .nav__list {
+  .header__nav .nav__list {
     transform: translateX(20%);
     width: 40%;
     height: 100%;
@@ -81,6 +87,8 @@
 
   .nav__cart {
     width: 15%;
+    justify-content: flex-end;
+    padding-right: $gutter;
   }
 
 }
@@ -92,7 +100,7 @@
   }
 
   .nav__cart{
-    padding-right: 8%;
+    padding-right: initial;
   }
   
 }
