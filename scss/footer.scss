@@ -68,3 +68,16 @@
   }
 }
 
+@media (min-width: 1200px) {
+
+  .footer__nav {
+    flex-wrap: nowrap;
+    max-width: 1200px;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+}
+
