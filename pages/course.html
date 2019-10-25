@@ -2,12 +2,12 @@
 <html lang="is">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Námskeið</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Námskeið</title>
 
-	<link rel="stylesheet" href="/grid.css">
-	<link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/grid.css">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
@@ -27,12 +27,15 @@
     </nav>
   </header>
 
-	<main>
+  <main>
     <div class="text">
       <div class="text__card">
-        <h2 class="card__title headline">Námskeið</h2>
-        <p class="card__content">Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna. Námskeiðin eru
-          kennd af engri annarri en Karítas Pétursdóttur. Fyrir fólk á öllum aldri. Skráðu þig núna!</p>
+        <div class="card__content">
+          <h2 class="card__title headline">Námskeið</h2>
+          <p class="card__paragraph">Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna.
+            Námskeiðin eru
+            kennd af engri annarri en Karítas Pétursdóttur. Fyrir fólk á öllum aldri. Skráðu þig núna!</p>
+        </div>
         <div class="card__image">
           <img class="image__img" src="/img/climbing-gym.jpg" alt="Prílihúsið">
         </div>
@@ -40,82 +43,82 @@
     </div>
 
     <section class="forms">
-			<div class="form">
+      <div class="form">
         <h2 class="form__title headline">Almennar upplýsingar</h2>
-        
-				<div class="form__row">
-					<span class="form__field">Nafn:</span>
-					<input class="form__input" type="text" name="text" id="text1" required>
-        </div>
-        
-				<div class="form__row">
-					<span class="form__field">Heimilisfang:</span>
-					<input class="form__input" type="text" name="text" id="text2" required>
-        </div>
-        
+
         <div class="form__row">
-					<span class="form__field">Aldur:</span>
-					<input class="form__input" type="text" name="text" id="text2" required>
+          <span class="form__field">Nafn:</span>
+          <input class="form__input" type="text" name="text" id="text1" required>
         </div>
-        
-				<div class="form__row">
-					<span class="form__field">Námskeið:</span>
-					<select class="form__input form__dropdown">
+
+        <div class="form__row">
+          <span class="form__field">Heimilisfang:</span>
+          <input class="form__input" type="text" name="text" id="text2" required>
+        </div>
+
+        <div class="form__row">
+          <span class="form__field">Aldur:</span>
+          <input class="form__input" type="text" name="text" id="text2" required>
+        </div>
+
+        <div class="form__row">
+          <span class="form__field">Námskeið:</span>
+          <select class="form__input form__dropdown">
             <option value="">V0 - V1</option>
             <option value="">V2 - V4</option>
             <option value="">V5 - V7</option>
-						<option value="">Krakkanámskeið</option>
+            <option value="">Krakkanámskeið</option>
             <option value="">Fjallaklifur</option>
-					</select>
-				</div>
-			</div>
-
-			<div class="form">
-				<h2 class="form__title headline">Greiðsluupplýsingar</h2>
-				<div class="form__row">
-					<span class="form__field">Kortanúmer:</span>
-					<input class="form__input" type="text" name="name" id="name" required>
-				</div>
-				<div class="form__row">
-					<span class="form__field">Korthafi:</span>
-					<input class="form__input" type="text" name="name" id="name" required>
-				</div>
-				<div class="form__row">
-					<span class="form__field">Gildistími:</span>
-					<div class="form__expiration">
-						<span>Mán:</span>
-						<select class="form__time">
-							<option value="">01</option>
-							<option value="">02</option>
-							<option value="">03</option>
-							<option value="">04</option>
-							<option value="">05</option>
-							<option value="">06</option>
-							<option value="">07</option>
-							<option value="">08</option>
-							<option value="">09</option>
-							<option value="">10</option>
-							<option value="">11</option>
-							<option value="">12</option>
-						</select>
-						<span>Ár:</span>
-						<select class="form__time">
-							<option value="">2019</option>
-							<option value="">2020</option>
-							<option value="">2021</option>
-							<option value="">2022</option>
-						</select>
-					</div>
-				</div>
+          </select>
+        </div>
       </div>
-      
+
+      <div class="form">
+        <h2 class="form__title headline">Greiðsluupplýsingar</h2>
+        <div class="form__row">
+          <span class="form__field">Kortanúmer:</span>
+          <input class="form__input" type="text" name="name" id="name" required>
+        </div>
+        <div class="form__row">
+          <span class="form__field">Korthafi:</span>
+          <input class="form__input" type="text" name="name" id="name" required>
+        </div>
+        <div class="form__row">
+          <span class="form__field">Gildistími:</span>
+          <div class="form__expiration">
+            <span>Mán:</span>
+            <select class="form__time">
+              <option value="">01</option>
+              <option value="">02</option>
+              <option value="">03</option>
+              <option value="">04</option>
+              <option value="">05</option>
+              <option value="">06</option>
+              <option value="">07</option>
+              <option value="">08</option>
+              <option value="">09</option>
+              <option value="">10</option>
+              <option value="">11</option>
+              <option value="">12</option>
+            </select>
+            <span>Ár:</span>
+            <select class="form__time">
+              <option value="">2019</option>
+              <option value="">2020</option>
+              <option value="">2021</option>
+              <option value="">2022</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
       <div class="form__purchase">
         <button class="form__button">Kaupa</button>
       </div>
 
-		</section>		
+    </section>
   </main>
-  
+
   <footer class="footer">
     <nav class="footer__nav">
       <ul class="nav__list">

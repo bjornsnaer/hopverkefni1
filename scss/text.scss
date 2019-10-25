@@ -12,6 +12,9 @@
   padding-left: 10px;
 }
 
+.text__card--switch {
+  flex-direction: row-reverse;
+}
 .card__title {
   font-family: $Oswald-font;
   font-weight: 400;
@@ -30,13 +33,14 @@
 
 
 .card__button {
-  background-color: $blar;
+  background-color: #00b7ff;
   display: block;
   border: none;
-  padding: 0.6rem 4rem;
   border-radius: 0.2rem;
   transition-duration: 0.4s;
   margin-top: 2rem;
+  width: 13rem;
+  height: 2rem; 
 }
 
 .card__button:hover {
@@ -69,10 +73,26 @@
 }
 
 @media (min-width: 800px) {
-  
-  .text__card{
-    display: flex;
+
+  .text__card {
+    display: flex; 
   }
+  .card__image {
+    margin-top: 0;
+    max-width: 40%; 
+  }
+  .card__paragraph {
+    margin-left: 0rem;
+    margin-right: 1rem;
+    font-size: 1.5rem; 
+  }
+  .card__content {
+    width: 100%;
+    margin-top: 0; 
+  }
+  .text__card--switch .card__content {
+    margin-left: 1.5rem; 
+  } 
 
   
 }
