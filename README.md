@@ -24,18 +24,21 @@ Verkefnið er keyrt með _node_modules_ pökkunum `browser-sync` og `node-sass` 
 möppunni `/node_modulus`.
 
 Eftir að verkefnið hefur verið sótt af github skal byrja á því að opna terminal og keyra skipunina `npm install` 
-í rót verkefnisins og fá þannig öll gögnin ásamt allri virkni. Með skipuninni er `browser-sync` og `node-sass` 
-sett upp.
+í rót verkefnisins. Þegar skipunin er keyrð eru pakkarnir `browser-sync` og `node-sass` sóttir og settir upp.
+
 
 `node-sass` 
 
-* Með skipuninni `npm run sass` í terminal er búin til `styles.css` úr öllum sass skránum og inniheldur hún
-þá allt útlit vefsíðunnar.
+* Með skipuninni `npm run sass` í terminal er búin til `styles.css` skrá úr öllum `.scss` skrám verkefnisins og inniheldur hún þá allt útlit vefsíðunnar.
 
 `browser-sync` 
 
-* Með skipuninni `npm run dev` í terminal keyrist vefsíðan upp á vefnum og þar að auki er hægt að gera beytingar á
-`.html` og `.sass` og munu þá þær breytingar keyrast upp samtímis á vefnum á meðan skipunin er í keyrslu.
+* Með skipuninni `npm run browser-sync` í terminal keyrist vefsíðan upp á vefnum og þar að auki er hægt að gera beytingar á `.html` og `.sass` og munu þá þær breytingar keyrast upp samtímis á vefnum á meðan skipunin er 
+í keyrslu.
+
+`dev`
+
+*  Með skipuninni `npm run dev` er keyrt bæði `browser-sync` og `node-sass` keyrt samtímis.
 
 ## Uppskipting
 
@@ -49,7 +52,6 @@ sem er forsíða fyrir verkefnisin. `styles.scss` skráin er svo sú skrá sem s
 Auk fyrrnefndra skráa og mappa eru möppurnar `/efni` og `/utlit` sem innihalda forskrift fyrir verkefnagerðina
 frá kennara. Þar að auki er skrárnar `styles.css`,`package-lock.json`, `package.json` og mappan `/node_modulus` en tilgangur þeirra við kemur keyrslu
 verkefnisins og er lýst í liðnum _Keyrsla_. 
-
 
 
 
