@@ -85,7 +85,11 @@
 
 }
 
-@media (min-width: 1330px){
+@media (min-width: 1200px) {
+
+  .header__nav {
+    max-width: 1200px;
+  }
 
   .nav__cart{
     padding-right: 8%;
