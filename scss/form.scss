@@ -63,3 +63,29 @@
   background-color: $appelsinugulur;
   color: white;
 }
+
+@media (min-width: 800px) {
+
+  .forms {
+    display: flex;
+  }
+
+  .form {
+    width: 50%;
+  }
+
+  .form__input {
+    width: 220px;
+  }
+
+  .form__field {
+    width:30%;
+  }
+
+  .form__expiration {
+    justify-content: initial;
+    justify-content: flex-end;
+    margin-right: 32px;
+   
+  }
+}
