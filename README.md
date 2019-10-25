@@ -21,11 +21,30 @@ Guðlaug Agnes Kristjánsdóttir
 ## Keyrsla
 
 Verkefnið er keyrt með _node_modules_ pökkunum `browser-sync` og `node-sass` en þá eru að finna í 
-möppunni `/node_modulus`. 
+möppunni `/node_modulus`.
+
+Eftir að verkefnið hefur verið sótt af github skal byrja á því að opna terminal og keyra skipunina `npm install` 
+í rót verkefnisins og fá þannig öll gögnin ásamt allri virkni. Með skipuninni er `browser-sync` og `node-sass` 
+sett upp.
+
+`node-sass` 
+
+* Með skipuninni `npm run sass` í terminal er búin til `styles.css` úr öllum sass skránum og inniheldur hún
+þá allt útlit vefsíðunnar.
+
+`browser-sync` 
+
+* Með skipuninni `npm run dev` í terminal keyrist vefsíðan upp á vefnum og þar að auki er hægt að gera beytingar á
+`.html` og `.sass` og munu þá þær breytingar keyrast upp samtímis á vefnum á meðan skipunin er í keyrslu.
+
+
+
+
 
 ## Uppskipting
 
 Verkefnið skiptist upp í 3 möppur: `/img`, `/scss` og `/pages` ásamt `styles.scss` og  `index.html`.
+
 `/img` mappan inniheldur allar myndir notaðar í vefsíðunni, `/scss` mappan inniheldur allar sass
 skrárnar fyrir útlit síðunnar og `/pages` mappan inniheldur allar `.html` síður fyrir utan `index.html` 
 sem er forsíða fyrir verkefnisin. `styles.scss` skráin er svo sú skrá sem sækir allar sass skrárnar í
