@@ -77,4 +77,14 @@
   .form__expiration {
     justify-content: flex-start;
   }
+
+  .forms {
+    justify-content: space-between;
+  }
+
+  .form {
+    padding: initial;
+
+    width: 590px;
+  }
 }

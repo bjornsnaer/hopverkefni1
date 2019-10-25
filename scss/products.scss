@@ -109,10 +109,6 @@
 
   .product__image {
     width: 100%;
-
-    padding-left: initial;
-    padding-right: initial;
-
   }
 
   .product__image {
@@ -121,13 +117,13 @@
   }
 
   .product__section {
-    flex:1
+    flex: 2;
+    margin-left: $gutter;
   }
 
-  
-
-  
-
-  
+  .products__title {
+    margin: initial;
+    padding: initial;
+  }
 }
 
