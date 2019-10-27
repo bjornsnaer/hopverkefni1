@@ -1,7 +1,7 @@
 :root {
   --offset: 20px;
   --max_width: 1200px;
-  --columns: 12;
+  /*--columns: 12;*/
   --gutter: 20px;
   --color: hsla(113, 79%, 72%, 0.25);
   --repeating-width: calc(100% / var(--columns));
